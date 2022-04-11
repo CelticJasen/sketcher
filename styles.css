@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#clearButton {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 20xp;
+    margin: 50px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border: 8px solid green;
+}
+
+div.pixel {
+    background-color: white;
+    height: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.coloredPixel {
+    background-color: black;
+    min-width: 2px;
+    min-height: 2px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
