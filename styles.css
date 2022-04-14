@@ -19,26 +19,28 @@ body {
 
 #container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: 320px;
     height: 320px;
     border: 8px solid green;
 }
 
+.pixelDiv {
+  display: flex;
+  flex: 1 1 0%;
+  width: 100%;
+}
+
 div.pixel {
     background-color: white;
-    height: auto;
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 1 1 100%;
+    width: 1px;
 }
 
 .coloredPixel {
     background-color: black;
     min-width: 2px;
     min-height: 2px;
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 1 1 100%;
+    width: 1px;
 }
